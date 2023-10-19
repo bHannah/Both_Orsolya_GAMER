@@ -1,0 +1,63 @@
+body {
+  margin: auto;
+  width: 50%;
+  max-width: 900px;
+  background-image: url('black.png');
+  color: beige;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fejlec {
+  margin: 0px;
+  text-align: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.nav li {
+	padding: 5px;
+	font-weight: bold;
+	border:1px solid white;
+	float: left;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: orange;
+}
+
+.szoveg {
+	height: 45vh;
+	font-size: 10px;
+	color: black;
+	background-color: rgb(179, 179, 179);
+    text-align: left;
+}
+
+.szoveg img{
+	margin: 5px;
+	display: right;
+	float:	right;
+	max-width: 200px;
+}
+
+h1 {
+	font-size: 15px;
+}
+
+.szoveg li{
+	list-style-type: square;
+}
